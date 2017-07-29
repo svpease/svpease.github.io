@@ -2,122 +2,43 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# [](#open-source)Open Source
 
-[Link to another page](another-page).
+I have a few open source projects I work on outside of [my professional career](https://www.linkedin.com/in/stevenpease/), so I've made this page to briefly describe them.
 
-There should be whitespace between paragraphs.
+## [](#mbti-flashcards)MBTI Flashcards
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The [MBTI Flashcards](https://github.com/svpease/mbti-flashcards) JavaScript application was created to help me study the foundational concepts behind the 16 personalities described by the [Myers-Briggs Type Indicator (MBTI)](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) regarding each type's ordered cognitive functions:
+* Ni (Introverted Intuition/Perspectives)
+* Te (Extroverted Thinking/Effectiveness)
+* Fi (Introverted Feeling/Authenticity)
+* Se (Extroverted Sensing/Sensation)
+* Ne (Extroverted Intuition/Exploration)
+* Ti (Introverted Thinking/Accuracy)
+* Fe (Extroverted Feeling/Harmony)
+* Si (Introverted Sensing/Memory)
 
-# [](#header-1)Header 1
+> The cognitive functions described above are paired with their more colloquial terms borrowed from [PersonalityHacker.com](https://personalityhacker.com).
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The application shows flashcards pertaining to each of the 16 personality types that list said types' cognitive functions.
 
-## [](#header-2)Header 2
+These flashcards have a few handy features such as..
+* they can be sorted by strongest cognitive function (by clicking on a cognitive function listed),
+* have their cognitive functions toggled invisible by pressing the "H" key (for memorization/studying),
+* and selectively shown using a textbox filter.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+**Type Filter**
+* When the type filter is, for example..
+    * **INJ**, it lists all personality types that correspond to the "INXJ" personality type: INTJ and INFJ
+    * **INTJ**, only the INTJ type is shown
+    * **IN**, it lists four types: INTJ, INTP, INFJ, INFP, and so on..
+* The type filter prevents any erroneous input that would not make sense.
+* The type filter may also be comma-delimited so that types can be shown side-by-side (for example "INTJ,ESTJ" or "INJ,ESTJ").
 
-### [](#header-3)Header 3
+I spend considerable amount of personal time researching psychology and personality types (mostly through MBTI and the Enneagram).
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+When I'm geeking out and sharing my MBTI knowledge, I'm usually sharing posts or commenting in the [INFJ + INTJ Relationships](https://www.facebook.com/groups/infjintjrelationships/) Facebook Group, which I admin.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## [](#jquery-json-presenter)JSON Presenter (jQuery Plugin)
 
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+The [JSON Presenter jQuery plugin](https://github.com/svpease/jquery-json-presenter) that I wrote in JavaScript helps me to build more effective tools, allowing me to quickly see and access structured JSON data. This has been particularly helpful for tools that aid troubleshooting and has saved a lot of time, whereas building a custom UI for every bit of structured JSON data being passed back and forth in JavaScript would be particularly tedious. This plugin allows for jQuery to very quickly select a DOM element and provide it with the JSON to be presented within said container DOM element. Options may be provided to the plugin that specify how many levels deep to expand/collapse collapsible JSON properties (such as Arrays and Objects). The user interface also allows collapsible properties to be expanded/collapsed by clicking on said JSON property.
