@@ -51,6 +51,8 @@ Options may be provided to the plugin that specify how many levels deep to expan
 
 The user interface also allows collapsible properties to be expanded/collapsed by clicking on said JSON property.
 
+**[See demo.](https://svpease.github.io/demos/jquery-json-presenter/index.html)**
+
 # [](#contact-me)Contact
 
 Reach out to me in any number of the following ways:
