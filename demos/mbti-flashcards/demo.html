@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>MBTI Flashcards App</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/mbti-flashcards.css" />
+    
+    <script type="text/javascript" src="js/lib/jquery.js"></script>
+    <script type="text/javascript" src="js/mbti-flashcards.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #app-container {
+            width: 100%;
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-container"></div>
+    <script>
+        MbtiFlashcards.initialize($('#app-container'), window.location.hash.replace('#', ''));
+    </script>
+</body>
+</html>

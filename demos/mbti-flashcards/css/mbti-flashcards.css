@@ -1,0 +1,90 @@
+/**
+ * MBTI Flashcards v1.0.0
+ *
+ * Copyright 2015 Steven Pease
+ * Released under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ */
+body {
+    font-family: Helvetica, Arial;
+}
+
+.mbti-app-toolbar {
+    padding: 4px;
+}
+
+.mbti-app-toolbar-label {
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.mbti-app-toolbar-input {
+    width: 300px;
+    line-height: 20px;
+}
+
+.mbti-app-toolbar-label,
+.mbti-app-toolbar-input {
+    float: left;
+    display: block;
+    margin: 0 6px;
+    height: 20px;
+}
+
+.mbti-app-types-container {
+    clear: both;
+}
+
+.typeContainer {
+    width: 120px;
+    text-align: center;
+    border: 1px solid #333;
+    color: #333;
+    background: #ddd;
+    border-radius: 2px;
+    margin: 6px;
+    float: left;
+}
+
+.typeLabel {
+    color: White;
+    background: #333;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.cognitiveFunction {
+    margin: 2px;
+    cursor: hand;
+    cursor: pointer;
+    color: black;
+}
+
+.cognitiveFunction.invisible {
+    visibility: hidden;
+}
+
+.cognitiveFunction:hover {
+    color: #3b5998;
+}
+
+.sortPriority1,
+.sortPriority1:hover {
+    background: #3b5998;
+    color: white;
+}
+
+.tier1 {
+    font-weight: bold;
+    padding: 6px;
+}
+
+.tier4, .tier8 {
+    padding-bottom: 6px;
+}
+
+.tier5, .tier6, .tier7, .tier8 {
+    color: #aaa;
+}
