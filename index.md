@@ -39,8 +39,8 @@ I spend considerable amount of personal time researching psychology and personal
 
 When I'm geeking out and sharing my MBTI knowledge, I'm usually sharing posts or commenting in the [INFJ + INTJ Relationships](https://www.facebook.com/groups/infjintjrelationships/) Facebook Group, which I admin.
 
-<div style="text-align:right;">
-**[See demo &raquo;](https://svpease.github.io/demos/mbti-flashcards/demo.html)**
+<div style="text-align:right;font-size:1.3em;font-weight:bold;">
+    <a href="https://svpease.github.io/demos/mbti-flashcards/demo.html" target="_blank">See demo &raquo;</a>
 </div>
 
 ## [](#jquery-json-presenter)JSON Presenter (jQuery Plugin)
@@ -55,7 +55,9 @@ Options may be provided to the plugin that specify how many levels deep to expan
 
 The user interface also allows collapsible properties to be expanded/collapsed by clicking on said JSON property.
 
-**[See demo &raquo;](https://svpease.github.io/demos/jquery-json-presenter/index.html)**
+<div style="text-align:right;font-size:1.3em;font-weight:bold;">
+    <a href="https://svpease.github.io/demos/jquery-json-presenter/index.html" target="_blank">See demo &raquo;</a>
+</div>
 
 # [](#contact-me)Contact
 
