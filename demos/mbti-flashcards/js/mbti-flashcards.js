@@ -284,6 +284,10 @@
             }
         },
         
+        /**
+         * @param {String} typeFilterInput The type filter input attempting to become the updated type filter
+         * @return {String} The valid representation of the provided type filter input, screening out any invalid characters
+         */
         screenTypeFilter: function(typeFilterInput) {
             /**
              * @param {String} typeFilter The type filter that toggles which MBTI types to show; for example "IJ", "ES", or "INTJ"
