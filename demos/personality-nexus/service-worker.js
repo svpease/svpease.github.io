@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/demos/personality-nexus/precache-manifest.f6d285dca4f438ea1437db5527791736.js"
+  "/demos/personality-nexus/precache-manifest.be0e9bbde1fb790e6daa17f8667a03bc.js"
 );
 
 self.addEventListener('message', (event) => {

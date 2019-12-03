@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1f57aae8ad5d8f1263fbd505cf27fa8",
+    "revision": "bbcbc74fc9452dc48976509f8ce265a9",
     "url": "/demos/personality-nexus/index.html"
   },
   {
-    "revision": "37adb9ee9320f52df10e",
+    "revision": "c950594a583576b8a54c",
     "url": "/demos/personality-nexus/static/css/main.d03c3659.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demos/personality-nexus/static/js/2.eac12a2a.chunk.js"
   },
   {
-    "revision": "37adb9ee9320f52df10e",
-    "url": "/demos/personality-nexus/static/js/main.0b407e98.chunk.js"
+    "revision": "c950594a583576b8a54c",
+    "url": "/demos/personality-nexus/static/js/main.eb95ac75.chunk.js"
   },
   {
     "revision": "c239b9ce619a6e3c3a59",
